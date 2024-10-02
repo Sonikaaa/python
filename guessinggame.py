@@ -5,7 +5,7 @@ out_of_guesses = False
 
 while i < guess_limit and not out_of_guesses:
     try:
-        your_number = int(input("Enter your number: "))  # Convert input to an integer
+        your_number = int(input("Enter your number: "))  
     except ValueError:
         print("Please enter a valid number!")
         continue  # Skip the rest of the loop if input is not a number
